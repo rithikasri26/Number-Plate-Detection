@@ -11,8 +11,6 @@ This project demonstrates automatic vehicle number plate detection using **Pytho
 - Applies OCR to recognize and read the text on the number plate.
 - Preprocessing techniques to improve detection accuracy.
 
----
-
 ## 🛠️ Technologies Used
 
 - Python 3
@@ -20,8 +18,6 @@ This project demonstrates automatic vehicle number plate detection using **Pytho
 - NumPy
 - Tesseract OCR
 - Google Colab (for execution)
-
----
 
 ## 🚀 How to Run
 
@@ -36,22 +32,11 @@ This project demonstrates automatic vehicle number plate detection using **Pytho
    - Preprocess the image.
    - Detect the number plate region.
    - Use Tesseract OCR to extract and display the plate number.
-
----
-
 ## 🧠 Code Breakdown
 
 - **preprocess_image(image):** Converts to grayscale, filters noise, and applies edge detection.
 - **find_plate_contour(edged):** Locates the contour of the number plate using polygon approximation.
 - **extract_plate(image, contour):** Masks and crops the number plate region for OCR.
-
----
-
-## 📷 Example (Optional)
-
-> You can add before/after screenshots of the detection output here.
-
----
 
 ## 📚 Future Enhancements
 
